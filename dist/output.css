@@ -537,6 +537,14 @@ video {
   z-index: 50;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -1285,5 +1293,10 @@ html {
   .lg\:text-grayish-blue {
     --tw-text-opacity: 1;
     color: hsl(236 13% 42% / var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:bg-dark-blue:hover {
+    --tw-bg-opacity: 1;
+    background-color: hsl(240 100% 5% / var(--tw-bg-opacity));
   }
 }
